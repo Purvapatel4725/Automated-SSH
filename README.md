@@ -24,13 +24,26 @@ Before using this script, ensure you have the following:
 
 1. **Download the Script**:
 
-   Save the script to your local machine. You can download it using `wget` or `curl`, or simply create a new file and copy the script contents into it.
+   Save the script to your local machine OR clone the repository. 
 
    ```bash
-   wget https://example.com/path/to/script.sh -O ssh_login_assistant.sh
+   wget https://github.com/Purvapatel4725/Automated-SSH/blob/main/script.sh -O ssh_login_assistant.sh
+   ```
+   OR
+
+   ```bash
+   curl https://github.com/Purvapatel4725/Automated-SSH/blob/main/script.sh -O ssh_login_assistant.sh
+   ```
+   OR
+
+   ```bash
+   git clone https://github.com/Purvapatel4725/Automated-SSH
    ```
 
-2. **Make the Script Executable**:
+   ```bash
+   cd Automated-SSH/
+   ```
+3. **Make the Script Executable**:
 
    Change the file permissions to make the script executable.
 
